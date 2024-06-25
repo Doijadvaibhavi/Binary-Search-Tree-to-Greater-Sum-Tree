@@ -24,7 +24,7 @@ The number of nodes in the tree is in the range [1, 100].
 0 <= Node.val <= 100
 All the values in the tree are unique.
 
-# =======================SOLUTION===================== #
+# SOLUTION #
 
 Intuition
 The idea is to traverse the BST in reverse in-order (right-root-left) and update the value of each node by adding the sum of all the nodes greater than or equal to the current node.
